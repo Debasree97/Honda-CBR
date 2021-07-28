@@ -1,0 +1,49 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ /* Common */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.color{
+    color: #E76F51;
+}
+
+.custom-font-style{
+    font-weight: 600;
+}
+
+/* Banner Section */
+
+#banner{
+    background-color: #264653;
+    padding-top: 65px;
+    padding-bottom: 96px;
+}
+
+#banner p{
+    font-weight: 300;
+    color: #E0E0E0;
+}
+
+.honda-btn{
+    background-color: #E76F51;
+    font-weight: 500;
+}
+
+#modal-text{
+    color: #264653;
+}
+
+/* Feature Bike Section */
+
+.feature-bike-grayscale{
+    filter: grayscale(100%);
+}
+
+#feature{
+    margin-bottom: 104px;
+}
