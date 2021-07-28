@@ -34,8 +34,8 @@ body{
     font-weight: 500;
 }
 
-#modal-text{
-    color: #264653;
+.dark-color{
+    color: #252B42;
 }
 
 /* Feature Bike Section */
@@ -44,6 +44,16 @@ body{
     filter: grayscale(100%);
 }
 
-#feature{
+.custom-margin{
     margin-bottom: 104px;
+}
+
+small{
+    font-weight: 600;
+}
+
+/* Happy Client */
+
+.client-color{
+    color: #23A6F0;
 }
