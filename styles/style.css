@@ -17,6 +17,10 @@ body{
     color: #252B42;
 }
 
+.custom-dark-bg{
+    background-color: #264653;
+}
+
 .custom-font-style{
     font-weight: 600;
 }
@@ -25,10 +29,14 @@ body{
     margin-bottom: 112px;
 }
 
+.honda-btn{
+    background-color: #E76F51;
+    font-weight: 500;
+}
+
 /* Banner Section */
 
 #banner{
-    background-color: #264653;
     padding-top: 65px;
     padding-bottom: 96px;
 }
@@ -38,10 +46,6 @@ body{
     color: #E0E0E0;
 }
 
-.honda-btn{
-    background-color: #E76F51;
-    font-weight: 500;
-}
 
 
 /* Feature Bike Section */
@@ -82,3 +86,15 @@ small{
 .faq-accordion-body{
     color: #7E848C;
 }
+
+.accordion-border{
+    border: 1px solid #D5E5FB;
+}
+
+/* Bonus Section */
+
+ /* Carousel */
+
+ .carousel-control-prev-icon, .carousel-control-next-icon{
+     height: 4rem;
+ }
