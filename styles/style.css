@@ -1,5 +1,6 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
  /* Common */
 
@@ -12,8 +13,16 @@ body{
     color: #E76F51;
 }
 
+.dark-color{
+    color: #252B42;
+}
+
 .custom-font-style{
     font-weight: 600;
+}
+
+.custom-margin{
+    margin-bottom: 112px;
 }
 
 /* Banner Section */
@@ -34,18 +43,11 @@ body{
     font-weight: 500;
 }
 
-.dark-color{
-    color: #252B42;
-}
 
 /* Feature Bike Section */
 
 .feature-bike-grayscale{
     filter: grayscale(100%);
-}
-
-.custom-margin{
-    margin-bottom: 104px;
 }
 
 small{
@@ -56,4 +58,27 @@ small{
 
 .client-color{
     color: #23A6F0;
+}
+
+.client-dark-color{
+    color: #6C6C6C;
+}
+
+/* FAQ */
+
+.faq{
+    font-family: 'Inter', sans-serif;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: white;
+    color: #383838;
+}
+
+.accordion-button-color{
+    color: #383838;
+}
+
+.faq-accordion-body{
+    color: #7E848C;
 }
